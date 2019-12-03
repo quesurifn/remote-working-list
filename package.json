@@ -5,7 +5,8 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "opml:build": "node index.js opml > remote-working-resources.opml"
+    "opml:build": "node index.js opml > remote-working-resources.opml",
+    "json:build": "node index.js json > remote-working-resources.json"
   },
   "repository": {
     "type": "git",
